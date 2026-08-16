@@ -20,8 +20,16 @@ export const categories: Category[] = [
     slug: "learning-education",
     name: "Learning & Education",
     shortDescription:
-      "Tools for studying, tutoring, revision and structured, personalized learning.",
-    subcategories: ["AI Tutors & Personalized Learning"],
+      "AI and digital tools designed to help you learn, study, revise, understand course material, practise skills and build knowledge more effectively.",
+    subcategories: [
+      "AI Tutors & Personalized Learning",
+      "Learn From Your Own Materials",
+      "Study & Revision",
+      "Lecture & Note Assistance",
+      "Flashcards & Quizzes",
+      "Language Learning",
+      "Classroom / Teacher-Guided Learning",
+    ],
     comingSoon: false,
   },
   {
