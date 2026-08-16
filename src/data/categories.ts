@@ -36,9 +36,16 @@ export const categories: Category[] = [
     slug: "research-academic-work",
     name: "Research & Academic Work",
     shortDescription:
-      "Tools for academic research, evidence discovery and literature review.",
-    subcategories: [],
-    comingSoon: true,
+      "Tools for discovering scholarly literature, understanding research evidence, exploring citation networks, conducting literature reviews, screening studies, reading academic papers, managing references, and organizing academic research.",
+    subcategories: [
+      "Academic Search & Evidence Discovery",
+      "Literature Review & Evidence Synthesis",
+      "Citation & Literature Mapping",
+      "Systematic Reviews & Screening",
+      "Paper Reading & Analysis",
+      "Research Organization & Reference Management",
+    ],
+    comingSoon: false,
   },
   {
     slug: "mathematics-science-problem-solving",
