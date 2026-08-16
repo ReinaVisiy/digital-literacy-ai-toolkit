@@ -2,12 +2,14 @@ import { Tool } from "../types";
 import { generalPurposeAiAssistants } from "./general-purpose-ai-assistants";
 import { learningEducation } from "./learning-education";
 import { researchAcademicWork } from "./research-academic-work";
+import { mathematicsScienceProblemSolving } from "./mathematics-science-problem-solving";
 
 // New categories add a data file + one line here — no component changes needed.
 export const allTools: Tool[] = [
   ...generalPurposeAiAssistants,
   ...learningEducation,
   ...researchAcademicWork,
+  ...mathematicsScienceProblemSolving,
 ];
 
 export function getToolsByCategory(categorySlug: string): Tool[] {

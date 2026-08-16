@@ -51,9 +51,18 @@ export const categories: Category[] = [
     slug: "mathematics-science-problem-solving",
     name: "Mathematics, Science & Problem Solving",
     shortDescription:
-      "Tools for mathematics, science, reasoning and technical problem-solving.",
-    subcategories: [],
-    comingSoon: true,
+      "Specialized tools for solving, computing, visualizing, exploring and understanding mathematical and scientific problems.",
+    subcategories: [
+      "Math Solvers & Step-by-Step Help",
+      "Computational Mathematics",
+      "Graphing & Visualization",
+      "Geometry & Interactive Mathematics",
+      "Scientific Computing",
+      "Equation & STEM Recognition",
+      "Science Simulations & Exploration",
+      "Chemistry & Molecular Visualization",
+    ],
+    comingSoon: false,
   },
   {
     slug: "coding-software-development",
